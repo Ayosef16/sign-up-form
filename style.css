@@ -6,8 +6,9 @@
 *,*::after,*::before{
     margin: 0;
     padding: 0;
-    font-family: "Norse Bold",sans-serif;
+    font-family: sans-serif;
     box-sizing: border-box;
+    font-size: 40px;
 }
 
 html{
@@ -31,6 +32,32 @@ body,.body-container{
     background-position: center;
     background-size: cover;
     width: 40vw;
-    border: solid 2px blueviolet;
+    outline: solid 2px rgb(10, 10, 10);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo-container{
+    display: flex;
+    background-color: rgba(214, 90, 158, 0.2);
+    height: 15%;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30%;
+    padding: 20px;
     
+}
+
+.text{
+    color: white;
+    font-size: 2rem;
+    align-self: center;
+    font-family: "Norse Bold";
+}
+
+.recognition,a{
+    color: white;
+    text-align: center;
+    font-size: 0.6rem;
 }
