@@ -30,6 +30,7 @@ body,.body-container,.image-container,.sign-up-container{
 
 form,.form-container,.submit-section{
     flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .image-container{
@@ -134,8 +135,15 @@ button[type="submit"]{
 
 input{
     border-radius: 0.5rem;
+    appearance: none;
 }
 
 #log-in, #log-in-text {
     font-size: 1rem;
+}
+
+input:focus{
+    border:solid 4px royalblue;
+    outline: none;
+    box-shadow: 1px 1px 10px rgb(241, 238, 238);
 }
