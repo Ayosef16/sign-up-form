@@ -17,11 +17,9 @@ html{
 
 body,.body-container{
     min-height: 100vh;
-    border: solid 2px black;
 }
 
 .body-container{
-    border: solid 2px pink;
     display: flex;
     
 }
