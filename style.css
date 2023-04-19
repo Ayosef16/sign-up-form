@@ -147,3 +147,9 @@ input:focus{
     outline: none;
     box-shadow: 1px 1px 10px rgb(241, 238, 238);
 }
+
+div .error {
+    color: red;
+    font-size: 0.6rem;
+    margin-top: 10px;
+}
